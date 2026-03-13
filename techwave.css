@@ -46,6 +46,91 @@ nav>.nav-list {
     display: none;
 }
 
+.banner-section {
+    background-image: url(./B13-A02-TechWave/assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.circle {
+    height: 450px;
+    width: 450px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 12%;
+    left: 39%;
+}
+
+.mic {
+    width: 125px;
+    position: absolute;
+    top: 25%;
+    left: 47.7%;
+}
+
+
+
+.tooltip {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    padding: 5px 16px;
+    text-align: center;
+    top: 15%;
+    left: 56.5%;
+}
+
+.banner-title {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 640px;
+}
+
+.banner-p {
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.banner-section>.banner-buttons {
+  margin-left: 800px;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-2 {
+    background: linear-gradient(#F7E93F , #FB09B4, #9100F8);
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding: 12.5px 12.5px 20px;
+    border-radius: 1000px;
+}
+
+
+.btn-3 {
+    border: 1px solid #00FF88;
+    background-color: transparent;
+    color: #00FF88;
+    padding: 12.5px 20px;
+    border-radius: 1000px;
+}
+
 
 @media screen and (max-width:576px) {
 
