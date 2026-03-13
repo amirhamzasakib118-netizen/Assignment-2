@@ -10,3 +10,57 @@
 
 
 
+nav {
+    border-bottom: 1px solid purple;
+    background-color: #2a134d;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    color: white;
+    align-items: center;
+}
+
+.linear {
+    background: linear-gradient(#F7E93F , #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav>.nav-list {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-1 {
+    max-width: 135px;
+    background: linear-gradient(#F7E93F , #FB09B4, #9100F8);
+    border-radius: 10000px;
+    padding: 12px 16px;
+    font-size:16px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+
+    nav>.nav-list {
+    display: none;
+}
+ .btn-1 {
+     display: none;
+ }
+
+ .hamburger {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+ }
+
+}
+
