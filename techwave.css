@@ -142,6 +142,7 @@ nav>.nav-list {
 
 .about-podcast-title {
     margin-bottom: 16px;
+    margin-left: 90px;
     font-size: 38px;
     font-weight: bold;
 }
@@ -149,6 +150,7 @@ nav>.nav-list {
 .about-podcast-p {
     font-size: 16px;
     font-weight:400;
+    margin-left: 90px;
     color: rgba(255, 255, 255, 0.575);
     padding-bottom: 80px;
 }
@@ -226,6 +228,23 @@ nav>.nav-list {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+.about-podcast-title {
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about-podcast-p {
+    font-size: 16px;
+    font-weight:400;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.575);
+    padding-bottom: 40px;
 }
 
 }
